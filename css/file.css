@@ -85,19 +85,33 @@ nav a {
 }
 footer {
   display: flex;
-  justify-content: center;
+  /* justify-content: space-between; */
   width: 100%;
-  background-color: var(--color1);
-  height: 100px;
+  background-color: var(--color2);
+  /* height: 50px; */
 margin-top: 150px;
-position: absolute;
+/* position: absolute; */
+align-items: center;
+justify-content: space-around;
+     height:200px;
+     max-width: 100%;
 }
 
-.footericon {
-  font-size: 80px;
+/* .footericon {
+  font-size: 40px;
   color: var(--color2);
   padding: 15px;
-  }
+  } */
+
+
+footer img {
+  width: 50px;
+
+    cursor: pointer;
+    
+}
+
+
 /* mostly index page styling  */
 .grid-just, .sucessjust {
   display: flex;
